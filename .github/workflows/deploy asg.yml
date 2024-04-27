@@ -4,7 +4,8 @@ name: deploy vpc
 
 on:
   push:
-    branches: [ "main" ]
+    paths:
+      - "asg/"
 
 jobs:
   build:
