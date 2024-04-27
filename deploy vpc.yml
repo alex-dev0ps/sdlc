@@ -28,7 +28,7 @@ jobs:
       - name: Apply
         working-directory: vpc
         run: |
-          echo "applying"
+          echo "applying2"
           #terraform apply -auto-approve
                                              
                
