@@ -5,7 +5,7 @@ name: deploy rds
 on:
   push:
     paths:
-      - "rds/"
+      - "rds/**"
 
 jobs:
   build:
