@@ -15,3 +15,10 @@ jobs:
       - name: initialize terraform
         run: |
           terraform init
+
+      - name: confirgure workspave
+        run: |
+          terraform workspace new dev || terraform workspace select dev
+  
+                      
+          
