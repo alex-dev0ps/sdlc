@@ -1,6 +1,4 @@
-name: Deploy vpc
-
-
+name: deploy vpc
 
 on:
   push:
