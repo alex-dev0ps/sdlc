@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = ""
-    key    = "path/to/my/asg"
+    bucket = "sdlc-terraform-backend-alex-dev0ps"
+    key    = "path/to/my/key"
     region = "us-east-1"
   }
 }
