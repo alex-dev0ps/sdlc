@@ -31,8 +31,8 @@ jobs:
       - name: Apply
         working-directory: rds
         run: |
-        echo "applying"
-        #terraform apply -auto-approve
+          echo "applying"
+          #terraform apply -auto-approve
                                              
                
                
